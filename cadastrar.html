@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<title> Sistema de Controle de Alunos - Cadastro </title>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1> Sistema de controle de Alunos </h1>
+			<p> Cadastro </p>
+		</div>
+		<div class="container">
+			<form>
+				<div class="form-group">
+					<label for="cpf">CPF:</label>
+					<input type="text" class="form-control" id="cpf" placeholder="Digite o CPF">
+				</div>
+				<div class="form-group">
+					<label for="nome">Nome:</label>
+					<input type="text" class="form-control" id="nome" placeholder="Digite o nome">
+				</div>
+				<div class="form-group">
+					<label for="genero">Genero:</label>
+					<input type="radio" name="generoF" value="F"> Feminino
+					<input type="radio" name="generoM" value="M"> Masculino <br>		
+				</div>
+				<div class="form-group">
+					<label for="interese">Interesse:</label> <br>
+					<input type="checkbox" name="interesse1" /> Engenharia da computacao <br>
+					<input type="checkbox" name="interesse2" /> Engenharia de producao <br>
+					<input type="checkbox" name="interesse3" /> Engenharia eletrica <br>
+					<input type="checkbox" name="interesse4" /> Sistemas de Informacao <br>
+				</div>
+				<div class="form-group">
+					<label for="endereco">Endereco:</label><br>
+					Rua: <input type="text" class="form-control" name="rua"/> Complemento: <input type="text" class="form-control" name="complemento"/> Numero: <input type="text" class="form-control" name="rua"/> <br>
+					Cidade: <input type="text" class="form-control" name="cidade"/> Estado: <input type="text" class="form-control" name="estado"/> CEP: <input type="text" class="form-control" name="cep"/>
+				</div>
+				<div class="form-group">
+					<label for="contato">Contato:</label><br>
+					<input type="text" class="form-control"name="telefone"/> Celular: <input type="text" class="form-control" name="celular"/>
+				</div>
+				<div class="form-group">
+					<label for="opcoesL">Opcoes para logar:</label><br>
+					Login: <input type="text" class="form-control" name="login"/> Senha: <input type="password" class="form-control" name="senha"/>
+				</div>
+				<div class="form-group">
+					<input type="submit" class="btn btn-default" value="Cadastrar"/>
+					<input type="reset" class="btn btn-default" value="Limpar"/>
+				</div>
+			</form><br>
+			<a href="index.html"> Voltar </a>
+	
+
+
+		</div>		
+	</body> 
+
+</html>
